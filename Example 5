@@ -20,3 +20,4 @@ let gpa =7.2;
 console.log(`you are ${age} years old`);
 console.log(`You are ${height} cm`);
 console.log(`Your total gpa is ${gpa}`);
+
