@@ -1,1 +1,24 @@
-      
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script src="script.js"></script>
+</body>
+</html>
+----------------------------------------------
+#from external js.file
+let fullName  = "Bro Code";
+let age = 25;
+let isStudent =  false;
+
+
+document.getElementById("p1").textContent = fullName;
+document.getElementById("p2").textContent = age;
+document.getElementById("p3").textContent = isStudent;
