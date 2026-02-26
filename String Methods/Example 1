@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    
+    
+    <script src="new.js"></script>
+    
+</body>
+</html>
+==============================================================
+
+let username = "Bro Code";
+console.log(userName.charAt(1));           //charAt
+console.log(userName.indexOf("o"));       //indexOf
+console.log(userName.lastIndexOf("o"));  //lastIndexOf
+console.log(userName.length);           //length
+
+userName = userName.trim();
+console.log(userName);                //trim
+
+userName = userName.toUppercase();
+console.log(userName);                //toUppercase
+
+userName = userName.toLowercase();
+console.log(userName);                //toLowercase
+
+
+
+
+
+
