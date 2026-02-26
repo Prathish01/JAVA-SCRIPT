@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    
+    
+    <script src="new.js"></script>
+    
+</body>
+</html>
+==============================================================
+let testScore = 33;
+let letterGrade;
+switch (true){
+    case testScore >= 90:
+          letterGrade = "A";
+        break;
+    case testScore >= 80:
+          letterGrade = "B";
+        break;
+    case testScore >= 70:
+          letterGrade = "C";
+        break;
+    case testScore >= 60:
+          letterGrade = "D";
+        break;
+    default:
+      letterGrade = "F";
+}
+console.log(letterGrade);
