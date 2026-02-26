@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    
+    
+    <script src="new.js"></script>
+    
+</body>
+</html>
+==============================================================
+
+let username = "Bro Code";
+
+username = userName.repeat();
+console.log(userName);                //repeat
+
+
+let result = userName.stratsWith("");
+if(result){
+console.log("Your userName can't begin with ' ' ");
+}
+else{
+console.log(userName);                 //startswith
+}
+
+
+let result = userName.endsWith("");
+if(result){
+console.log("Your userName can't ends with ' ' ");
+}
+else{
+console.log(userName);                 //endswith
+}
+
+
+let phoneNumber = "123-456-7890";
+phoneNumber = phoneNumber.replaceAll("-","");
+console.log(phoneNumber);              //replaceAll
+
+let phoneNumber = "123-456-7890";
+phoneNumber = phoneNumber.padStart(15,"0");
+console.log(phoneNumber);              //padStart
+
+let phoneNumber = "123-456-7890";
+phoneNumber = phoneNumber.padEnd(15,"0");
+console.log(phoneNumber);              //padEnd
+
+
+
