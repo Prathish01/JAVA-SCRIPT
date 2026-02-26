@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script src="new.js"></script>
+    
+</body>
+</html>
+=======================================================================================
+let age = 13;
+if(age>=18){
+    console.log("You are old enough to enter this site");
+
+}
+else{
+    console.log("You must me be 18+ to enter this site");
+
+}
