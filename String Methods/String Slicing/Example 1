@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    
+    
+    <script src="new.js"></script>
+    
+</body>
+</html>
+========================================================================
+const fullName = "Bro code"
+let firstName =  fullName.slice(4, 8); 
+let lastName = fullName.slice(0, 1);
 
+let firstChar = fullName.slice(0, 1);
+let lastChar = fullName.slice(-1);
+console.log(firstChar);
+
+//console.log(firstName);
+//console.log(lastName);
+//console.log(lastChar);
