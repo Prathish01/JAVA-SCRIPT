@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    
+    
+    <script src="new.js"></script>
+    
+</body>
+</html>
+==============================================================
+let loggedIn = true;
+let username;
+let password;
+
+
+do{
+    username = window.prompt('Enter your name');
+    password = window.prompt(`Enter your password`);
+
+    if(username === "myUsername" && password === "myPassword"){
+        loggedIn = true;
+        console.log("You are logged in!");
+    }
+    else{
+        console.log("Invaild credentials! Please try again");
+    }
+}while(loggedIn)
