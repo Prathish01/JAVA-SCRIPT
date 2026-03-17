@@ -13,6 +13,7 @@
 </body>
 </html>
 -------------------------------------------------------------------------
+
 const numbers = ["Spongebob","Patrick", "Squidward", "Sandy"];
 const studentsUpper = students.map(upperCase);
 const studentsLower = students.map(lowerCase);
@@ -25,3 +26,5 @@ function upperCase(element){
 function lowerCase(element){
     return element.toLowerCase();
 }
+
+===============================================================
