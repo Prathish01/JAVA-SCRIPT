@@ -14,3 +14,10 @@
 </html>
 
 -------------------------------------------------------------
+const dates =["2024-1-10","20205-2-20","2026-3-30"];
+const formatDates = dates.map(formatDates);
+console.log(formattedDates);
+function formatDates(element){
+    const part = element.spilt("-");
+    return `${parts[1]}/${parts[2]}/${parts[0]}`;
+}
